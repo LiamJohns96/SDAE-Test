@@ -9,7 +9,7 @@ function getGreetingMessage(name) {
 
 // Define routes
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello, SDAE Student! You have deployed the app via your Pipeline');
 });
 
 app.get('/about', (req, res) => {
