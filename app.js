@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 // Define a function for greeting messages
 function getGreetingMessage(name) {
-  return `Hello, ${name}!`;
+  return `Hello, friend!`;
 }
 
 // Define routes
