@@ -6,6 +6,10 @@ phases:
       - npm install
       - npm install express --save
 
+  post_build:
+    commands:
+      - npm test
+
 artifacts:
   files:
-    - '**/*'
+    - "**/*"
